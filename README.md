@@ -16,21 +16,21 @@ This project implements an end-to-end automated notification pipeline designed t
 - Automatically monitors specified Gmail inbox
 - Triggers workflows on new incoming emails
 - Filters emails based on custom criteria (sender, subject, keywords)
-- Supports multiple Gmail accounts
 
 ### 2. Slack Notifications
 - Sends real-time alerts to Slack channels
 - Customizable message formatting
 - Includes email details (sender, subject, timestamp)
-- Error notifications for failed workflows
 
 ### 3. Google Sheets Logging
 - Automatically records all notifications in Google Sheets
-- Logs include:
-  - Email details (sender, subject, date/time)
-  - Notification status
-  - Workflow execution status
-  - Timestamps and error messages
+- Logs include Email details:
+  - Timestamp
+  - Sender
+  - Subject
+  - Preview
+  - Thread ID
+  - Labels
 - Easy-to-review audit trail for compliance and tracking
 
 ## 🚀 Getting Started
